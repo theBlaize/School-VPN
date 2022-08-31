@@ -1,0 +1,31 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{84391467-dd8b-4c66-9b52-860583038351}",
+      "Name": "Schoolcheats VPN",
+      "Type": "VPN",
+      "NameServersConfigType": "Static",
+      "StaticIPConfig": {
+        "NameServers": [
+          "5.189.139.56"
+        ]
+      },
+      "VPN": {
+        "AutoConnect": true,
+        "Host": "5.189.139.56",
+        "IPsec": {
+          "IKEVersion": 1,
+          "AuthenticationType": "PSK",
+          "PSK": "BRPZpeJeY49DZXXE2C8N",
+          "SaveCredentials": true
+        },
+        "L2TP": {
+          "Username": "vpnuser",
+          "Password": "nUgfJYKT8nm7PyXa"
+        },
+        "Type": "L2TP-IPsec"
+      }
+    }
+  ]
+}
